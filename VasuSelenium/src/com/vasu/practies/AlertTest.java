@@ -21,7 +21,7 @@ public class AlertTest
 		
 		driver.findElement(By.id("corover-close-btn")).click();
 		
-		
+		System.out.println("Added new line");
 		
 		driver.findElement(By.xpath("//*[@id='bookingsForm']/div/div/div[2]/div[3]/button")).click();
 
