@@ -57,7 +57,7 @@ public class AddEmployeeTest extends PrimusBank
 	@DataProvider
 	public Object [][] getData()
 	{
-		
+		System.out.println("sample");
 		
 		Object [][] data=new Object[2][3];
 		
