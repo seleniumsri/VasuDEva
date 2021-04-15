@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13959" started-at="2021-04-12T15:10:29Z" finished-at="2021-04-12T15:10:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13959" started-at="2021-04-12T15:10:29Z" finished-at="2021-04-12T15:10:43Z">
+      <class name="com.vasu.testng.AddEmployeeTest">
+        <test-method status="PASS" signature="appLaunch()[pri:0, instance:com.vasu.testng.AddEmployeeTest@1ae369b7]" name="appLaunch" is-config="true" duration-ms="10236" started-at="2021-04-12T20:40:19Z" finished-at="2021-04-12T20:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLaunch -->
+        <test-method status="PASS" signature="appLogin()[pri:0, instance:com.vasu.testng.AddEmployeeTest@1ae369b7]" name="appLogin" is-config="true" duration-ms="1299" started-at="2021-04-12T20:40:29Z" finished-at="2021-04-12T20:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLogin -->
+        <test-method status="PASS" signature="addEmp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vasu.testng.AddEmployeeTest@1ae369b7]" name="addEmp" duration-ms="5795" started-at="2021-04-12T20:40:30Z" data-provider="getData" finished-at="2021-04-12T20:40:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JayaSelenium34]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PrachiSelenium34]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Address2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmp -->
+        <test-method status="PASS" signature="addEmp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vasu.testng.AddEmployeeTest@1ae369b7]" name="addEmp" duration-ms="6330" started-at="2021-04-12T20:40:36Z" data-provider="getData" finished-at="2021-04-12T20:40:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JayaSelenium34]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PrachiSelenium34]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Address2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmp -->
+        <test-method status="PASS" signature="appLogout()[pri:0, instance:com.vasu.testng.AddEmployeeTest@1ae369b7]" name="appLogout" is-config="true" duration-ms="502" started-at="2021-04-12T20:40:42Z" finished-at="2021-04-12T20:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLogout -->
+        <test-method status="PASS" signature="appClose()[pri:0, instance:com.vasu.testng.AddEmployeeTest@1ae369b7]" name="appClose" is-config="true" duration-ms="446" started-at="2021-04-12T20:40:43Z" finished-at="2021-04-12T20:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appClose -->
+      </class> <!-- com.vasu.testng.AddEmployeeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

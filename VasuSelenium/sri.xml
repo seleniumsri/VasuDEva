@@ -1,0 +1,8 @@
+<suite name="SampleSuite">
+  <test name="VasuTestNG">
+    <classes>
+       <class name="com.vasu.testng.AnnotationsTest1"/>
+       <class name="com.vasu.testng.AnnotationsTest2"/>
+    </classes>
+  </test>
+ </suite>
